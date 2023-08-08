@@ -17,4 +17,4 @@ def index():
 def output():
    return render_template('pdf_generate.html',List1=list1,function=major_functions,causes=causes,img=img)
 
-app.run(host='0.0.0.0')
+app.run(host='0.0.0.0', port=81)
